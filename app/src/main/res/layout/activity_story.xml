@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    >
+
+<ScrollView
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000000">
+
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is placeholder text for the interactive fiction. This section is scrollable."
+        android:id="@+id/story_text_view"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_alignParentTop="true"
+        android:paddingTop="15dp"
+        android:textColor="@android:color/white"
+        android:paddingBottom="30dp"
+        android:lineSpacingMultiplier="1.2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choice 2"
+        android:id="@+id/choice_button_2"
+        android:layout_below="@id/choice_button_1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/shadow"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/choice_button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/story_text_view"
+        android:background="@drawable/shadow"
+        android:text="Choice 1"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/choice_button_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/choice_button_2"
+        android:background="@drawable/shadow"
+        android:text="Choice 3"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/choice_button_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/choice_button_3"
+        android:background="@drawable/shadow"
+        android:text="Choice 4"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/choice_button_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/choice_button_4"
+        android:background="@drawable/shadow"
+        android:text="Choice 5"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:textColor="#000000" />
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>
